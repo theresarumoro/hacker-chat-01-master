@@ -1,0 +1,295 @@
+/*html*/
+/*class*/
+/*id*/
+body{
+    background-color: black;
+    color: chartreuse;
+    font-family: "Andale Mono";
+    text-align: center;
+    font-size: x-large;
+}
+table{
+    width:90%;
+}
+
+button{
+    display:inline-block;
+    margin-left: 20px;
+    text-align: center;
+    padding: 20px 40px;
+    font-family: "Andale Mono";
+    font-size: medium;
+    color: black;
+}
+aside{
+    margin-left: 80%;
+}
+
+/*button{*/
+/*    text-align: center;*/
+/*    font-family: "Andale Mono";*/
+/*    color: black;*/
+/*    display: inline-block;*/
+/*    font-size: 18px;*/
+/*    padding: 14px 40px;*/
+/*}*/
+
+section{
+    display: inline;
+}
+aside{
+
+    display: inline;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#heading{
+    font-family: "Andale Mono";
+    color: chartreuse;
+    text-align: center;
+    margin-top: 5px;
+    font-size: xxx-large;
+}
+#buttons, #new_message, #return{
+    font-family: "Andale Mono";
+    display: inline-block;
+    padding: 20px 40px;
+    margin: 5px 20px 5px 10px;
+    width: 40%;
+}
+#login{
+    margin-left: 75%;
+
+}
+#register{
+    margin-left:10%;
+    margin-right:65%;
+}
+#forgot_password{
+    margin-bottom: 45%;
+    margin-left: 40%;
+    margin-right: 50%;
+}
+/*button{*/
+/*    text-align: center;*/
+/*    font-family: "Andale Mono";*/
+/*    color: black;*/
+/*    display: inline-block;*/
+/*    font-size: 18px;*/
+/*    padding: 14px 40px;*/
+/*}*/
+#page_title{
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+#msg, .msg{
+    margin-left: 70%;
+}
+#message, .message{
+    margin-left: 5%;
+}
+
+#view_profile{
+    margin-left: 37.5%;
+}
+#profile_search{
+    margin-left: 37.5%;
+}
+#acc_settings{
+    margin-left: 37%;
+}
+#logout{
+    margin-left: 39.5%;
+}
+
+/*#heading{*/
+/*    font-family: "Andale Mono";*/
+/*    text-align: left;*/
+/*    margin-top: 5px;*/
+/*    font-size: xx-large;*/
+/*}*/
+
+#to_msg{
+    margin-left:20px;
+
+}
+#body_msg{
+    padding-bottom: 50px;
+    padding-right:50px;
+}
+#send_button, #return_to_inbox{
+    margin-left: 50px;
+    text-align: center;
+    padding: 14px 20px;
+    display: inline-block;
+    font-family: "Andale Mono"
+}
+#return_to_inbox{
+    font-family: "Andale Mono";
+    margin-top: 10px;
+}
+#send_msg{
+    margin-left: 20%;
+}
+
+#login{
+    margin-left: 75%;
+
+}
+#register{
+    margin-left:10%;
+    margin-right:65%;
+}
+#forgot_password{
+    margin-bottom: 45%;
+    margin-left: 40%;
+    margin-right: 50%;
+}
+
+#page_title{
+    font-size: xx-large;
+    text-align: center;
+}
+/*#heading{*/
+/*    font-family: "Andale Mono";*/
+/*    text-align: right;*/
+/*    margin-top: 5px;*/
+/*    font-size: xx-large;*/
+/*}*/
+/*#heading{*/
+/*    font-family: "Andale Mono";*/
+/*    text-align: center;*/
+/*    margin-top: 5px;*/
+/*    font-size: xx-large;*/
+/*}*/
+/*#heading{*/
+/*    font-family: "Andale Mono";*/
+/*    text-align: left;*/
+/*    margin-top: 5px;*/
+/*    font-size: xx-large;*/
+/*}*/
+#enter{
+    margin-left: 20%;
+}
+.inbox_tbl{
+    border: 1px solid aliceblue;
+    border-collapse:collapse;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+
+
+
+
+.dash_buttons{
+    margin-left: 20%;
+    background-color: chartreuse;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    width: 400px;
+}
+
+.profile_buttons{
+    font-family: "Andale Mono";
+    display:inline-block;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: chartreuse;
+    margin-left: 20%;
+    margin-top:10px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+
+.forgot_form{
+    width: 500px;
+    padding: 50px;
+    margin-left: 90px;
+    margin-top:5%;
+    text_align: center;
+    border-color: chartreuse;
+    color: aliceblue;
+    font-family: "Andale Mono";
+}
+.headings{
+    color:chartreuse;
+    text-align: center;
+}
+
+.login_form{
+    width: 500px;
+    padding: 50px;
+    margin-left: 90px;
+    margin-top:5%;
+    text_align: center;
+    border-color: chartreuse;
+    color: aliceblue;
+    font-family: "Andale Mono";
+}
+
+.user_settings{
+    margin-left: 60%;
+    margin-top:6px;
+    padding: 8% 10%;
+    width: 200px;
+    background-color: chartreuse;
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+
+.sign_up_form{
+    width: 500px;
+    padding: 50px;
+    margin-left: 90px;
+    margin-top:5%;
+    text_align: center;
+    border-color: chartreuse;
+    color: aliceblue;
+    font-family: "Andale Mono";
+}
+.headings{
+    color:chartreuse;
+    text-align: center;
+}
+
+.btn_group{
+    display:inline-block;
+    margin-left: 20px;
+    text-align: center;
+    padding: 20px 40px;
+    width:30%;
+    font-family: "Andale Mono";
+    font-size: medium;
+}
+
+#asidebuttons{
+    margin-left: 20%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    display: block;
+    margin-top:10px;
+    padding: 15% 25%;
+}
+
+#username{
+    text-align: left;
+    color: black;
+    background-color: chartreuse;
+}
